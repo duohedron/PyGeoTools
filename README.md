@@ -1,6 +1,9 @@
 PyGeoTools
 ==========
 
+[![Build Status](https://travis-ci.org/duohedron/PyGeoTools.svg?branch=master)](https://travis-ci.org/duohedron/PyGeoTools)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 A set of Python tools using geolocation coordinates.
 
 Available tools:
