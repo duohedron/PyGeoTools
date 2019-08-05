@@ -1,4 +1,6 @@
 *.py[cod]
+__pycache__/
+.pytest_cache/
 
 # C extensions
 *.so
@@ -33,3 +35,8 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Environments
+env/
+venv/
+virtualenv
