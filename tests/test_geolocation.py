@@ -33,3 +33,6 @@ class TestGeoLocation(unittest.TestCase):
     def test_bounding_locations_invalid_distance(self):
         loc = GeoLocation.from_degrees(0, 0)
         self.assertRaises(ValueError, loc.bounding_locations, 100, -5)
+
+if __name__ == '__main__':
+    unittest.main()
